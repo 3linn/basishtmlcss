@@ -6,14 +6,14 @@
 	<br>
 
 	<input type="text" id="fname" name="fname" 
-		placeholder="Voornaam" value="">
+		placeholder="Voornaam" value="" maxlength="100">
 	<br>
 
 	<label for="lname">Achternaam:</label>
 	<br>
 
 	<input type="text" id="lname" name="lname" 
-		placeholder="achternaam" value="">
+		placeholder="achternaam" value="" maxlength="100">
 	<br>
 	
     <label for="adres">adres:</label>
@@ -27,7 +27,7 @@
 	<br>
 
 	<input type="text" id="postcode" name="postcode" 
-		placeholder="postcode" value="">
+		placeholder="postcode" value="" maxlength="6">
 	<br>
 	
     <label for="plaats">plaats:</label>
@@ -36,8 +36,41 @@
 	<input type="text" id="plaats" name="plaats" 
 		placeholder="plaats" value="">
 	<br>
+	
+    <label for="geboortedatum">geboortedatum:</label>
 	<br>
 
+	<input type="date" id="geboortedatum" name="geboortedatum" 
+		value="">
+	<br>
+	
+    <label for="e-mailadres">e-mailadres:</label>
+	<br>
+
+	<input type="email" id="e-mailadres" name="e-mailadres" 
+		placeholder="e-mailadres" value="">
+	<br>
+	
+    <label for="geslacht">geslacht:</label>
+	<br>
+
+	<input type="radio" id="geslacht" name="geslacht" 
+		placeholder="geslacht" value="">
+	<br>
+	
+	<label for="opmerkingen"> opmerkingen </label>
+    <br>
+    <input type="textarea" id="opmerkingen" name="opmerkingen"
+    placeholder="type hier uw opmerking" maxlength="400">
+    <br>
+    
+    <label for="geslacht">inschrijven voor de nieuwsbrief:</label>
+	<br>
+
+	<input type="checkbox" id="inschrijven" name="inschrijven" 
+		placeholder="inschrijven" value="">
+	<br>
+	<br> 
 	<input type="submit" value="Submit">
 </form>
 
