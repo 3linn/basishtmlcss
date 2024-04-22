@@ -4,16 +4,24 @@ body {
   width: 1920;
 }
 
+.shortcuts{
+background-color: aliceblue;
+}
+
 .youtubefoto{
-  width: 100px;
+  width:70px;
 }
 
 .fotooutlook{
-  width: 100px;
+  width: 70px; 
+}
+
+.fotowhatsapp {
+  width: 70px;
 }
 
 .googlefoto{
-  width: 300px
+  width: 300px;
 }
 .main-container {
   height: 100vh;
@@ -46,7 +54,3 @@ body {
   grid-area: 3 / 3 / 4 / 4;
 }
 
-search-input::placeholder,
-.search-icon {
-  color: (0, 0, 0, 0.5);
-}
