@@ -4,8 +4,11 @@ body {
   width: 1920;
 }
 
-.shortcuts{
-background-color: aliceblue;
+.shortcuts{ 
+display: flex;
+justify-content: space-between;
+padding-top: 25px;
+
 }
 
 .youtubefoto{
@@ -32,8 +35,8 @@ background-color: aliceblue;
 }
 
 .search {
+  width: calc(100% - 28px);
   --padding: 14px;
-  width: max-content;
   display: flex;
   align-items: center;
   padding: var(--padding);
@@ -44,7 +47,7 @@ background-color: aliceblue;
 
 .search-input {
   font-size: 16px;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   color: #333333;
   margin-left: var(--padding);
   outline: none;
